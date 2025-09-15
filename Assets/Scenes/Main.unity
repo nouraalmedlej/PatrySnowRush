@@ -3197,8 +3197,6 @@ Transform:
   - {fileID: 1494804767}
   - {fileID: 1853972332}
   - {fileID: 554016214}
-  - {fileID: 911699295}
-  - {fileID: 1070200392}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &802918581
@@ -3487,7 +3485,7 @@ GameObject:
   - component: {fileID: 911699297}
   - component: {fileID: 911699296}
   m_Layer: 0
-  m_Name: Square
+  m_Name: edge 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3501,12 +3499,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911699294}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.98, y: 0.77, z: 0.049004544}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.047957, y: 1.2550285, z: -0.1393222}
   m_LocalScale: {x: 1, y: 16.0138, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 752269285}
+  m_Father: {fileID: 1666846429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &911699296
 BoxCollider2D:
@@ -3938,7 +3936,7 @@ GameObject:
   - component: {fileID: 1070200394}
   - component: {fileID: 1070200393}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: edge 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3952,12 +3950,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070200391}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.15, y: 0.77, z: 0.049004544}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.08204, y: 1.2550285, z: -0.1393222}
   m_LocalScale: {x: 1, y: 16.0138, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 752269285}
+  m_Father: {fileID: 1666846429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1070200393
 BoxCollider2D:
@@ -5895,6 +5893,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3537812358067275101, guid: f57bc8e0a55ba1f429487e59e9dbeecc, type: 3}
   m_PrefabInstance: {fileID: 1641340451}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1666846428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1666846429}
+  m_Layer: 0
+  m_Name: Edgees
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1666846429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666846428}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8559826, y: -2.0859683, z: 0.1393222}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 911699295}
+  - {fileID: 1070200392}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1682354023
 GameObject:
   m_ObjectHideFlags: 0
@@ -7788,3 +7819,4 @@ SceneRoots:
   - {fileID: 1334406270}
   - {fileID: 472892183}
   - {fileID: 700071033}
+  - {fileID: 1666846429}
